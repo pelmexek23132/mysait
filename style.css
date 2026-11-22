@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f1e206;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    transition: 0.4s;
+  }
+  
+  .profile-card {
+    width: 3000px;
+    padding: 300px;
+    background: rgb(66, 5, 43);
+    border-radius: 25px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgb(155, 5, 97);
+  }
+  
+  .avatar {
+    font-size: 70px;
+    margin-bottom: 10px;
+  }
+  
+  h1 {
+    color: #ecdd07;
+    margin-bottom: 5px;
+  }
+  
+  #profileNick {
+    color: #888;
+  }
+  
+  .info {
+    background: #ece904;
+    padding: 15px;
+    border-radius: 15px;
+    margin: 15px 0;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 6px 0;
+    border: 1px solid #31041d;
+    border-radius: 10px;
+    font-size: 14px;
+  }
+  
+  textarea {
+    resize: vertical;
+    min-height: 60px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 8px;
+    border: none;
+    border-radius: 12px;
+    background: #8b5cf6;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  button:hover {
+    transform: scale(1.03);
+    opacity: 0.9;
+  }
+  
+  /* Темна тема */
+  body.dark {
+    background: #1e1b2e;
+  }
+  
+  body.dark .profile-card {
+    background: #302a45;
+    color: white;
+  }
+  
+  body.dark .info {
+    background: #44385e;
+  }
+  
+  body.dark h1 {
+    color: #c4a5ff;
+  }
+  
+  /* Рожева тема */
+  body.pink {
+    background: #ffe4ef;
+  }
+  
+  body.pink .profile-card {
+    background: #fff5fa;
+  }
+  
+  body.pink h1 {
+    color: #e84393;
+  }
+  
+  body.pink .info {
+    background: #ffe5f2;
+  }
+  
