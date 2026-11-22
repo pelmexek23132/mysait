@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Мій цифровий профіль</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="profile-card">
+    <div class="avatar" id="avatar">👁️</div>
+
+    <h1 id="profileName">Антон33</h1>
+    <p id="profileNick">@Anton33</p>
+
+    <div class="info">
+      <p id="profileAbout">Тут буде інформація про мене!</p>
+      <p><strong>Мої захоплення:</strong></p>
+      <p id="profileHobbies">Лего,роблокс,ютуб.Люблю піцу 4 сири і аніме.</p>
+    </div>
+
+    <div class="editor">
+      <input type="text" id="nameInput" placeholder="Твоє ім'я">
+      <input type="text" id="nickInput" placeholder="Твій нікнейм">
+      <input type="text" id="avatarInput" placeholder="Емодзі">
+      <textarea id="aboutInput" placeholder="Розкажи про себе"></textarea>
+      <input type="text" id="hobbiesInput" placeholder="Твої захоплення">
+    </div>
+
+    <button onclick="updateProfile()">Оновити профіль</button>
+    <button onclick="changeTheme()">🎨 Змінити тему</button>
+    <button onclick="shareProfile()">📤 Поділитися</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
